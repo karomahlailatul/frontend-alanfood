@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom print styles */
+@media print {
+  /* Apply Tailwind utilities or custom CSS here */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  #print-content {
+    margin: 20px;
+  }
+
+  h1 {
+    @apply text-center mb-8 text-3xl font-semibold;
+  }
+
+  table {
+    @apply w-full border-collapse table-auto;
+  }
+
+  th,
+  td {
+    @apply p-2 border border-black text-center;
+  }
+
+  .total {
+    @apply mt-4 text-right font-bold;
+  }
+}

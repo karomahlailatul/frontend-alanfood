@@ -1,0 +1,11 @@
+node_modules
+build
+dist
+.next
+.cache
+next.config.js
+node_modules
+yarn.lock
+package-lock.json
+public
+.yaml

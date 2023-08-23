@@ -1,0 +1,35 @@
+/* print-styles.css */
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center content on the printed page */
+#print-content {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust this as needed */
+}
+
+/* Add spacing between rows */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the header row */
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Style the total section */
+.font-medium {
+  font-weight: 500;
+}
